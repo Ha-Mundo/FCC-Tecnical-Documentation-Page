@@ -34,6 +34,12 @@ em {
   color: var(--dark-purple);
 }
 
+code {
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+}
+
 /*  Desktop */
 #main-doc {
   background-color: hsl(70deg 60% 70% / 35%);
@@ -53,7 +59,19 @@ em {
   padding: 0px;
 }
 
+.rules {
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 2rem;
+  margin: 1rem;
+  padding: 0 0.5rem;
+  background-color: hsl(33deg 26% 66% / 43%);
+  border-radius: 0.5rem;
+  list-style: none;
+}
+
 li {
+  list-style: none;
   width: 100%;
 }
 
